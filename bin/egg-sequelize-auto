@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var eggSequelizeAuto = require('../lib/egg-index');
+var eggSequelizeAuto = require('../');
 var path = require('path');
 var Sequelize = require('sequelize');
 var _ = Sequelize.Utils._;
